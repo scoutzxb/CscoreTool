@@ -1,7 +1,6 @@
 //This program is to perform HiC compartmentalization in raw matrix file
 //the process is to fit nij=Bi*Bj*hij*(1+Ci*Cj)
 //inter-chr reads are nor used. i.e. results from each chrs are independent
-//P denotes parallel computation
 
 #include <vector>
 #include <string>
