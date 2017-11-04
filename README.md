@@ -19,7 +19,7 @@ The executable is compiled on a RedHat linux machine. If it doesn't work, downlo
 
 You'll get an execuable file CscoreTool1.1. 
 
-3. Usage: CscoreTool1.1 <windows.bed> <input.summary> < outputPrefix> <session> <minDis> [chrName]
+3. Usage: CscoreTool1.1 < windows.bed> < input.summary> < outputPrefix> < session> < minDis> [chrName]
 
 Input parameters
 
