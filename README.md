@@ -4,6 +4,7 @@
 1. Purpose
 
 This program is to do A/B compartment analysis for Hi-C data. Test data are also provided.
+Several other files are also available for download, including the bedgraph files involved in the CscoreTool paper, the generateEqualLengthBed.cpp file, and the chromosome size files used for generating 
 
 2. Installation
 
@@ -24,7 +25,7 @@ You'll get an execuable file CscoreTool1.1.
 Input parameters
 
 a. windows.bed 
-This file is to specify the genomic windows to analyze. It should be equal-length bed files covering the region of interest, presumably a whole chromosome or whole genome. An example hg19_chr1_10k.bed can be downloaded.
+This file is to specify the genomic windows to analyze. It should be equal-length bed files covering the region of interest, presumably a whole chromosome or whole genome. An example hg19_chr1_10k.bed can be downloaded.These files can also be generatd using the generateEqualLengthBed.cpp program provided here. The chromosome size files used for generating windows.bed are also available for download.
 
 b. input.summary
 This file is the main input file for Hi-C interactions. We accept the same format as the HiCsummary file format for HOMER runHiCpca.pl. See http://homer.ucsd.edu/homer/interactions/HiCtagDirectory.html
@@ -58,3 +59,4 @@ XXX_cscore.txt
 This is the Cscore estimated for each genomic window. 
 XXX_cscore.bedgraph
 This is the bedgraph file made for visualization. Low-mappability windows (bias<0.2) or high copy-number windows (bias>5) are already filtered. 
+All bedgraph files involved in the analysis in the CscoreTool paper are available in the Bedgraphs.zip file.
